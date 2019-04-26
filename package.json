@@ -1,0 +1,52 @@
+{
+  "name": "movielist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "bu": " gulp sass && webpack",
+    "build": "gulp images && gulp sass && webpack",
+    "webpack": "webpack",
+    "start": "http-server",
+    "webpack-err": "webpack --display-error-details",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "autoprefixer": "^9.4.7",
+    "babel-loader": "^8.0.5",
+    "babel-register": "^6.26.0",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "html-replace-webpack-plugin": "^2.5.5",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "media-query-plugin": "^1.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-ext-html-webpack-plugin": "^4.0.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

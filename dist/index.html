@@ -1,0 +1,48 @@
+<!DOCTYPE html lang="en">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        MovieList
+    </title>
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="images/nav-logo.png">
+    <link rel="stylesheet" type="text/css" href="./styles/above-fold.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="msapplication-TileImage" content="tileimgsrc"><meta name="msapplication-TileColor" content="tilecolor"><meta name="description" content="MovieList"><meta name="theme-color" content="#4285f4"></head>
+
+<nav class="navbar">
+    <img class="brand logo" src="images/nav-logo.png" >
+    <h4 class="nav-title">Movies</h4>
+</nav>
+
+<header>
+    <h4 class="results-title">Now Playing</h4>
+    
+   <div class="dropdown">
+    <button class="filter mobile">Filters</button>
+    <div class="dropdown-content">
+         <button class="filter date active">Release Date</button>
+          <button class="filter popularity">Popularity</button>
+          <button class="filter votes">Votes</button>
+    </div>
+  </div>
+</header>
+
+<section class="grid layout">
+    <button class="small grid-size">&#9856;</button>
+    <button class="medium grid-size active">&#9859;</button>
+    <button class="large grid-size">&#9861;</button>
+</section>
+
+<main>
+    <img class="loader" src="images/loader.gif"/>
+</main>
+
+<footer>
+    <img class="footer-logo" src="images/footer-logo.png"/>
+</footer>
+
+<script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
